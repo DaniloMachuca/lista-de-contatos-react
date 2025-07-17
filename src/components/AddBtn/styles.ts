@@ -1,0 +1,19 @@
+import styled from 'styled-components'
+import variables from '../../styles/variables'
+import { Link } from 'react-router-dom'
+
+export const Circle = styled(Link)`
+  display: block;
+  height: 64px;
+  width: 64px;
+  background-color: ${variables.colors.btnSave};
+  color: #fff;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 64px;
+  font-size: 40px;
+  text-decoration: none;
+`
