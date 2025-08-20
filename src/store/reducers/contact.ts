@@ -7,7 +7,15 @@ type ContactsState = {
 }
 
 const initialState: ContactsState = {
-  list: []
+  list: [
+    {
+      id: 1,
+      name: 'Contato Exemplo',
+      email: 'ZPb0x@example.com',
+      phone: '(99) 99999-9999',
+      classification: enums.Classification.PESSOAL
+    }
+  ]
 }
 
 const ContactSlice = createSlice({
